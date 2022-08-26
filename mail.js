@@ -125,11 +125,13 @@ function sendMail(params) {
 const serviceID = 'service_xbb0lzi';
 const templateID = 'template_w6jsmnj';
 
+
+
  var textarea = document.getElementById("msg");
  var textsubj = document.getElementById("sbj");
  var textname = document.getElementById("name").value;
  var final = "Name: "+ textname + "|" + " Subject: " + textsubj.value + " | " + " Message: " + textarea.value;
-
+ 
     var temParams = {
         from_name : document.getElementById("fromName").value,
         to_name : "davidobinna579@gmail.com",
